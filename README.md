@@ -19,4 +19,19 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+## Dataset
+
+This project uses the TMDB movies and credits datasets.
+
+Due to licensing, the datasets are NOT included in this repository.
+
+Download them from Kaggle:
+https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+
+After downloading, place:
+- movies.csv
+- credits.csv
+
+in the project root directory before running the notebook.
 
